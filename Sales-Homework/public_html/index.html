@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sales-Homework</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="saleshomework.js"></script>
+    </head>
+    <body>
+        <h2>Weekly Sales</h2>
+        <div>Enter the total sales for each day of the week.</div><br>
+        <form name="DailySales" onsubmit="return totalSales()">
+            Monday:<br>
+            <input type="text" name="sales"><br>
+            Tuesday:<br>
+            <input type="text" name="sales"><br>
+            Wednesday:<br>
+            <input type="text" name="sales"><br>
+            Thursday:<br>
+            <input type="text" name="sales"><br>
+            Friday:<br>
+            <input type="text" name="sales"><br>
+            Saturday:<br>
+            <input type="text" name="sales"><br>
+            Sunday:<br>
+            <input type="text" name="sales"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="TotalSales">
+        </div>
+    </body>
+</html>
